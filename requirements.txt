@@ -1,6 +1,9 @@
 cfgrib==0.9.15.0
 dask==2024.12.1
+Jinja2==3.1.5
+litestar==2.13.0
 numpy==2.2.1
 pyproj==3.7.0
 rasterio==1.4.3
 xarray==2024.11.0
+uvicorn==0.34.0
