@@ -12,5 +12,6 @@ To run the app:
 3. Install requirements 
     - `pip3 install -r requirements.txt`
     - Note: on MacOS, eccodes binaries may need to be installed separately. See https://pypi.org/project/eccodes/
+    - Note: gdal binaries & dev libraries on your system are necessary for rasterio. See https://rasterio.readthedocs.io/en/latest/installation.html
 4. Run app
     - `cd astroweather; litestar run`
