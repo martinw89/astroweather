@@ -70,5 +70,5 @@ class AstronomyDatasetReader:
             if i < 3:
                 ds["Seeing"][i] = ds["Seeing"][3]
             elif i % 3 != 0:
-                ds["Seeing"][i] = ds["Seeing"][i + 3 - (i % 3)]
+                ds["Seeing"][i] = ds["Seeing"][min(len(ds["step"])-len(ds["step"])%3,i + 3 - (i % 3))]
         return ds
